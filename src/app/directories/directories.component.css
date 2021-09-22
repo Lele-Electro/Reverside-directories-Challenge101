@@ -1,0 +1,40 @@
+.directories-page{
+    height: 100%;
+    width: 100%;
+    background-color: silver;
+    padding: 50px;
+}
+
+
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+    margin-right: 200px;
+  }
+
+  .mat-card{
+      margin-bottom: 4px;
+     
+  }
+  
+  .mat-card:hover{
+background-color: rgb(106, 211, 253);
+}
+
+  .mat-card p{
+      /* margin-left: 50px; */    
+      display: inline;
+      margin-right: 100px;
+     
+      
+  }
+
+  .name{
+    display: inline;
+      margin-left:50px;
+      line-height: 50px;
+  }
+
+button{
+  margin-top: 20px;
+}

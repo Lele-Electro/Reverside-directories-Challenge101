@@ -1,0 +1,83 @@
+<div class = "directories-page">
+    <div class = "container row">
+
+<div class="col-md-6">
+    <mat-card *ngFor= "let directory of directories">
+        <div matLine mat-card-avatar class="example-header-image">   
+            <mat-list  matLine>
+            <mat-list-item  matLine>
+           <div class = "name">
+            <p>  {{directory.name}}|{{directory.surname}}</p>          
+           </div>
+            </mat-list-item>
+
+            </mat-list>
+        
+        </div>
+      
+    </mat-card>
+</div>
+
+
+<div class="col-md-6">
+<!-- <create-directory></create-directory> -->
+<h1>Create a New Directory</h1>
+<div class="form">
+    <form #loginForm="ngForm" (submit) = "createDirectory(loginForm.value)">
+
+        <div class ="form-group">
+            <label for = "surname">ID</label>
+            <input [(ngModel)] = "id" id = "id" type="number" class = "form-control" name ="id" id = "id">
+        </div>
+        
+        <div class ="form-group">
+            <label for = "surname">Name</label>
+            <input [(ngModel)] = "name" id = "name" type="text" class = "form-control" name ="name" id = "name">
+        </div>
+        
+
+        <div class ="form-group">
+            <label for = "surname">Surname</label>
+            <input (ngModel) = "surname" id = "surname" type="text" class = "form-control" name ="surname" id = "surname">
+        </div>
+
+        <div class ="form-group">
+            <label for = "title">Title</label>
+            <input (ngModel) = "title" id = "title" type="text" class = "form-control" name ="title" id = "title">
+        </div>
+
+        <div class ="form-group">
+            <label for = "number">Number</label>
+            <input (ngModel) = "number" id = "number" type="text" class = "form-control" name ="number" id = "number">
+        </div>
+
+        <div class ="form-group">
+            <label for = "city">City</label>
+            <input (ngModel) = "city" id = "city" type="text" class = "form-control" name ="city" id = "city">
+        </div>
+
+        <div class ="form-group">
+            <label for = "country">Country</label>
+            <input (ngModel) = "country" id = "country" type="text" class = "form-control" name ="country" id = "country">
+        </div>
+
+
+        <div class ="form-group">
+            <label for = "image">Image URL</label>
+            <input (ngModel) = "image" id = "image" type="text" class = "form-control" name ="image" id = "image">
+        </div>
+
+        <button  class = "btn btn-danger" style = "margin-right:20px"    (click) = "deleteDirectory(2)">Delete</button>
+        <button type = "submit" class = "btn btn-primary" >Add</button>
+        <h1></h1>
+    </form>
+</div>
+    
+
+</div>
+        
+
+    </div>
+</div>
+
+

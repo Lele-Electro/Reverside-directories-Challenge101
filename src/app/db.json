@@ -1,0 +1,82 @@
+{
+    "Directories":[
+     {
+   
+   
+      "id": 1,
+      "name": "Fearne",
+      "surname": "Cotton",
+      "title": "Presenter",
+      "number": "555 254 2257",
+      "city": "somewhere in the USA",
+      "country": "United States of America",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Jeremy",
+      "surname": "Clarkson",
+      "title": "Boradcaster",
+      "number": "555 555 6325",
+      "city": "Bristol",
+      "country": "United Kingdom",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Clare",
+      "surname": "Balding",
+      "title": "Author",
+      "number": "555 783 9241",
+      "city": "Kingsclere",
+      "country": "United Kingdom",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Angellica",
+      "surname": "Bell",
+      "title": "Show Host",
+      "number": "558 157 4605",
+      "city": "London UK",
+      "country": "United Kingdom",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "name": "Stephen",
+      "surname": "Colbert",
+      "title": "Broadcaster",
+      "number": "555 858 2841",
+      "city": "Washington D.C",
+      "country": "United States of America"
+    },
+    {
+      "id": 6,
+      "name": "Jimmy",
+      "surname": "Kimmel",
+      "title": "Host",
+      "number": "555 715 8874",
+      "city": "New York",
+      "country": "United States of America"
+    },
+    {
+      "id": 7,
+      "name": "Jon",
+      "surname": "Stewart",
+      "title": "Producer",
+      "number": "555 755 5284",
+      "city": "New York",
+      "country": "United States of America"
+    },
+    {
+      "id": 8,
+      "name": "Samira",
+      "surname": "Ahmed",
+      "title": "broadcaster",
+      "number": "555 824 2595",
+      "city": "Kensington",
+      "country": "United Kingdom"
+    }
+]
+}
